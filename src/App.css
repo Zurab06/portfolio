@@ -1,38 +1,226 @@
+@font-face {
+  font-family: DM Sans;
+  src: url("./fonts/Roboto-Thin.ttf");
+}
+
+body {
+  font-family: DM Sans;
+  background-color: rgb(44, 42, 44);
+}
+
 .App {
-  text-align: center;
+  margin: auto;
+  width: 1440px;
+  height: 2700px;
+  background-color: #171717;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.right {
+  margin-right: 29px;
+  margin-top: 18px;
+  color: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+.name {
+  margin-left: 29px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.about-me {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainblock {
+  margin-top: 116px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-block {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 453px;
+  height: 33px;
+  margin-top: 195px;
+  margin-left: 125px;
+  margin-right: 122px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 390px;
+}
+.download-btn {
+  margin-right: 5px;
+  width: 143px;
+  height: 42px;
+  color: white;
+  border: 1px solid;
+  border-color: #fcfcfc;
+  background-color: green;
+  border-style: none;
+  font-family: DM Sans;
+  font-size: larger;
+}
+.more {
+  font-family: DM Sans;
+  font-size: larger;
+  border: 1px solid;
+  border-color: #fcfcfc;
+  background-color: inherit;
+  color: white;
+  width: 143px;
+  height: 42px;
+}
+.profile {
+  width: 650px;
+  height: 650px;
+
+  margin-right: 87px;
+}
+.photo {
+  border-radius: 50%;
+  height: 650px;
+  width: 650px;
+}
+.info {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.info-block {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.block {
+  width: 62px;
+  height: 62px;
+  background: #212121;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ellipse {
+  width: 12px;
+  height: 12px;
+  background: #00ff00;
+  border-radius: 50%;
+}
+.headers {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+}
+.my-name {
+  color: white;
+  margin-left: 66px;
+  margin-right: 70px;
+}
+.my-mail {
+  margin-right: 3px;
+}
+.my-number {
+  color: white;
+  margin-right: 130px;
+}
+.linkedin {
+  margin-right: 77px;
+  margin-left: 4px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.what-i-do {
+  margin-top: 90px;
+  color: white;
+  text-align: center;
+}
+.my-work-block {
+  margin-top: 90px;
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.do-block {
+  display: flex;
+ flex-wrap: wrap;
+  height: 241px;
+  width: 349px;
+  border-radius: 4px;
+  background-color: #535353;
+}
+.inside-block {
+  
+  margin-top: 150px;
+  margin-left: -40px;
+  color: #171717;
+  
+}
+.svg{
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+.my-skills{
+  color: white;
+  display: flex;
+  justify-content: center;
+margin-top: 100px;  
+font-family: DM  Sans;
+}
+.stek{
+  font-weight: bold;
+  margin-top: 99px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.svg-logos{
+  width: 70px;
+  height: 70px;
+}
+.svg-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer{
+  margin-top: 330px;
+  color: wheat;
+  text-align: center;
+  font-family: DM Sans;
+  opacity: 0.3;
+  
+  
 }
