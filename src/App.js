@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h2 className="name">Зураб</h2>
+        <div className="name">Портфолио</div>
         <div className="right">
           <div className="about-me">обо мне</div>
           <div className="contacts">контакты</div>
@@ -15,18 +15,19 @@ function App() {
       <div className="mainblock">
         <div className="left-block" >
           <div> <h1 >Привет, меня зовут Зураб Патиев</h1>
-            <h1>Я фронтэнд-разработчик</h1>
+            <h1 className="front">Я фронтэнд-разработчик</h1>
           </div>
           <div><button className="download-btn">скачать</button>
-            <button className="more">Github</button></div>
+            <button className="more"><a href="https://github.com/Zurab06">Github</a></button></div>
         </div>
-        <div className="profile"><img className="photo" src="https://avatars.dzeninfra.ru/get-zen_doc/1574327/pub_5e039a5e5ba2b500b5a39289_5e039a6d1e8e3f00b0d1db2d/scale_1200" alt="profile" /></div>
+        <div className="profile"><img className="photo" src="https://lh3.googleusercontent.com/pw/AJFCJaU8wthArb-lOEsWBaNj4i9rOGyaXh4haCkjA56X5FCpRQEGLgYDNtXFuXXc2L1t-QvmkccQGziE-km42lp7C7iF7Pyf4nG68-0HyKyZlLRRzdgZcCPb8m80kVLxabex3gMKToTP4RsfFeg9ZM_x3dDWU3nD8LQHtmAoj3RVySmNuFWJYY5xhKYOsJrRd3AB5c-lA6b6bf5PGGqNbZ43TREYwC1SGdyShpcSXn0r1Xi0dJuq3Lv9mgLuzDXdKfgg3faHftpTdYSeDm7nH90Ee1_kL3mL-CVZffN8DPj6vWeE4AX3viM9_90iBikUd4ZBbF6FfItN8EwkF92rza8jxG2oKfHuU-ck49jZyVIjh4Tke1qdufEtb-uPRjiDZO587tzBDkDenLsPkxPQO0d6wtQ9d_ahD3wKpnbgVlsrJFnpd1cDR2tzZRUBbMc82HcTRvvaKzxkNycQCXg0hyxShkbyVEFPvMpr3fgI4LqIr7t3Hr1ogMx2n_xR-EOCkUFTkGQKlW2l0C68YrsBV08t4OOEonvxP7S75KbUoBOdWht8U2WQsjPVb4sfdgaoThvFianFbeU2vYvOyHnMfIaQXewDh5MTctWLxbgDgDZUZOjOpxxqj1LZ7v7cbRVJvCTVKRN1_5eZI968vtqjCjV6RRvjUzsk4ez7nbz4-WoRs0hzZGe6O9hJbjaF6ZsIo6-9DmG-rVlXIitWD3dpZkbzCewe8ohiQm08beccynKqRo_4LM06tBfuEu9Vi5Cvywo5yJtD_AW3uWd9KtxA2wRZb3z_2SDpvFgNJfX1GrzW98j9_i3DkZytDu_zGOc3pFPadIXqi2ZsvM68k4Wq2RDoXEIvvDWkUwKihc7TVQVtMHejWX9hCycTa5D3BqNp-U3qlXLbz-oP6YQ_K4XiLMA0ijxm9bY=w626-h627-s-no?authuser=0" alt="profile" /></div>
       </div>
       <h1 className="info">Обо мне</h1>
       <div className="about">
-        <div>Я фронтэнд разработчик, занимаюсь разра
-          боткой около двух лет. в своей разработке использовал такие технологии и библиотеки как redux-toolkit, TypeScript, sass, mongoose, express, react-redux и reactJS. Знаю английский язык
-          на уровне b1, свободно общаюсь с иностранцами. Пунктуален, коммуникабелен и ответственнен.</div>
+        <div className="text-block">Привет, меня зовут Зураб и я занимаюсь frontend-разработкой и веб-разработкой. Я увлекаюсь созданием красивых и функциональных интерфейсов, которые обеспечивают отличный пользовательский опыт.
+
+Мой стек технологий включает в себя HTML, SCSS, JavaScript, ReactJS, TypeScript и Bootstrap. Я также имею опыт в работе с базами данных MongoDB, и с технологиями серверной разработки, такими как Node.js и Express.js.
+Если вы хотите работать со мной или просто пообщаться, пожалуйста, свяжитесь со мной через мою контактную форму или социальные сети, которые я указал на моем сайте портфолио.</div>
       </div>
       <div className="info-block">
         <div><div className="block"><div className="ellipse"></div></div><h4 className="headers">Имя</h4></div>
@@ -83,6 +84,17 @@ function App() {
     6.9-12.3 15.2-19.6 1 3 1.601 5.899 1.5 8.6-.099 18-12.899 24.7-20.7 27.5z"/></svg>
 
       </div>
+      <div class="tools-section">
+  <h2 class="tools-heading"> некоторые технологии, которые я использую</h2>
+  <div class="tools-list">
+    <div class="tool-item">Redux-toolkit</div>
+    <div class="tool-item">react-router</div>
+    <div class="tool-item">webpack</div>
+    <div class="tool-item">node.js</div>
+    <div class="tool-item">bootstrap</div>
+  </div>
+</div>
+
       <div className="footer"> Zurab Patiev, 2023</div>
     </div>
   );
